@@ -46,13 +46,7 @@ def open_Fiori_NC(NCList):
         print("No NC's!")
         return None
     
-    #Setup Chromedriver
-    chromedriver = r"\\ushw-file\Users\transfer\edhr_checker\eDHR\eDHR\src\chromedriver_win32\chromedriver.exe" 
-    chromeOptions = webdriver.ChromeOptions()
-    chromeOptions.add_experimental_option('excludeSwitches', ['enable-logging'])
-    
-    
-    # driver = webdriver.Chrome(executable_path=chromedriver, options=chromeOptions)
+    # Get appropriate driver for current Google Chrome Version
     driver = webdriver.Chrome(ChromeDriverManager().install())
 
     #Check the status of each NC
@@ -325,26 +319,8 @@ def downloadDHR(SN):
             time.sleep(1)
             return
 
-
-    # Justin's original code
-    # Configure Chrome profile to download to this script's directory
-    #chrome_options = Options()
-    #prefs = {'download.default_directory' : eDHR_FilesPath}
-    #chrome_options.add_experimental_option('prefs', prefs)
-    #chrome_options.add_argument('--log-level=3')
-    #driver = webdriver.Chrome(options=chrome_options)
-
-    # Configure Chrome profile to download to this script's directory
-    chrome_options = webdriver.ChromeOptions()
-    prefs = {"download.default_directory" : eDHR_FilesPath}
-    chrome_options.add_experimental_option("prefs",prefs)
-    chromedriver = r"\\ushw-file\Users\transfer\edhr_checker\eDHR\eDHR\src\chromedriver_win32\chromedriver.exe" 
-    chrome_options.add_argument('--log-level=3')
-    # driver = webdriver.Chrome(executable_path=chromedriver, chrome_options=chrome_options)
-
+    # Get appropriate driver for current Google Chrome Version
     driver = webdriver.Chrome(ChromeDriverManager().install())
-
-    chrome_options.binary_location = r"C:/Program Files/Google/Chrome/Application/chrome.exe"
 
     # Open Chrome browser to eDHR website
     url = "http://ussd-illuminareporting.illumina.com/Reports/Pages/Report.aspx?ItemPath=%2fCamstar+Reports%2fProduction%2feDHR+-+Instrument+-+Detail"
