@@ -1,0 +1,322 @@
+﻿ContainerName,PartNumber,PartDescription,ProductionOrder,Qty,UOM
+M07732,15033616,"ASSY, MiSeq2",20564682,1,EA
+
+Step1,StepDescription1,DeviationNumber,FormattedTxnDate2
+
+Step2,StepDescription2,NCRNumber,FormattedTxnDate1
+NC/DEV/RW,Record NC/Dev and/or Rework,300001069,11-AUG-2021 03:46:23 PM
+NC/DEV/RW,Record NC/Dev and/or Rework,300001280,20-AUG-2021 04:55:21 PM
+
+Textbox55,Textbox56
+BoltPac,18-AUG-2021 03:15:39 PM
+FIT,23-AUG-2021 09:00:52 AM
+
+Step,StepDescription,TaskListName,FullName1,Role,TransactionType,FormattedTxnDate,Comments
+OP100-Ref,References,N/A,Michael Mejia,Operator,ContainerMaint,10-AUG-2021 07:05:15 AM,Linking to work order.
+OP800-Ref,References,N/A,Thomas Banh,Operator,MoveNonStd,24-AUG-2021 01:02:09 PM,Moving to record DEVN that was inadvertently missed but performed 11 AUG 2021; DEVN was applied prior to release. 
+OP400-IntlyzHoming,Initialize and Homing,N/A,Thomas Banh,Operator,MoveNonStd,24-AUG-2021 01:05:33 PM,return to std process
+
+Textbox109,Textbox110,Textbox111,Textbox112,Textbox113,UpperLimit,DataValue,Textbox114,Textbox115,Textbox116,TransactionType1,Textbox117,Textbox118
+OP100-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Michael Mejia,Operator,Start,10-AUG-2021 07:04:46 AM,N/A
+OP100-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Michael Mejia,Operator,ContainerMaint,10-AUG-2021 07:05:15 AM,Linking to work order.
+OP100-Ref,References,N/A,Cell Number,N/A,N/A,Cell 2,Pass,Michael Mejia,Operator,gdnCollectDataOperation,10-AUG-2021 07:05:32 AM,N/A
+OP100-Ref,References,N/A,Time Tracking,N/A,N/A,Prime,Pass,Michael Mejia,Operator,gdnCollectDataOperation,10-AUG-2021 07:05:48 AM,N/A
+OP100-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Michael Mejia,Operator,ccfMoveStd,10-AUG-2021 07:12:05 AM,N/A
+OP100-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 07:12:05 AM,N/A
+OP100-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Michael Mejia,Operator,ccfMoveStd,10-AUG-2021 07:12:11 AM,N/A
+OP100-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 07:12:11 AM,N/A
+OP100-Deviations,Listing of Deviations,List Deviations,Optional Deviation Number,N/A,N/A,1052822,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 07:12:35 AM,N/A
+OP100-Tasks,OP100 Tasks,Duplicating MFG Image,MFG Image MN,N/A,N/A,20047160,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 07:13:09 AM,N/A
+OP100-Tasks,OP100 Tasks,Duplicating MFG Image,MFG Image Version,N/A,N/A,3.2.C04.20191213,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 07:13:09 AM,N/A
+OP100-Tasks,OP100 Tasks,Prepare Build Cart,1.Verify approval status of MN,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:02:12 AM,N/A
+OP100-Tasks,OP100 Tasks,Prepare Build Cart,2.Verify matching of SN,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:02:12 AM,N/A
+OP100-Tasks,OP100 Tasks,Prepare Build Cart,3.Print/Apply Chassis Label,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:02:12 AM,N/A
+OP100-Tasks,OP100 Tasks,Verify Checksum,Verify Checksum,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:02:20 AM,N/A
+OP100-Tasks,OP100 Tasks,Install MFG Image,1.Label Target Drive,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:06:07 AM,N/A
+OP100-Tasks,OP100 Tasks,Install MFG Image,2.Install Target Drive to EBox,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:06:07 AM,N/A
+OP100-Tasks,OP100 Tasks,Create IBase,1.Create IBase,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:18:16 AM,N/A
+OP100-Tasks,OP100 Tasks,Create IBase,2.Verify IBase,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:18:16 AM,N/A
+OP100-Tasks,OP100 Tasks,Create IBase,Electronic Signature,N/A,N/A,Signer,Complete,Loren Thai,Operator,ExecuteTask,10-AUG-2021 08:18:16 AM,N/A
+OP100-Tasks,OP100 Tasks,Create IBase,Electronic Signature,N/A,N/A,Signer,Complete,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 08:18:16 AM,N/A
+OP300-Ref,References,N/A,Time Tracking,N/A,N/A,Queue,Pass,Michael Mejia,Operator,gdnCollectDataOperation,10-AUG-2021 09:02:15 AM,N/A
+OP300-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Anthony Choy,Operator,ccfMoveStd,10-AUG-2021 11:44:53 AM,N/A
+OP300-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 11:44:53 AM,N/A
+OP300-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Anthony Choy,Operator,ccfMoveStd,10-AUG-2021 11:44:57 AM,N/A
+OP300-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 11:44:57 AM,N/A
+OP300-ESD Precaution,ESD Precaution,ESD Precaution,ESD Precaution,N/A,N/A,Performed,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 11:45:23 AM,N/A
+OP300-ESD Precaution,ESD Precaution,N/A,N/A,N/A,N/A,N/A,N/A,Anthony Choy,Operator,ccfMoveStd,10-AUG-2021 11:45:23 AM,N/A
+OP300-Deviations,Listing of Deviations,N/A,Time Tracking,N/A,N/A,Prime,Pass,Anthony Choy,Operator,gdnCollectDataOperation,10-AUG-2021 11:45:33 AM,N/A
+OP300-Deviations,Listing of Deviations,List Deviations,Optional Deviation Number,N/A,N/A,1046305,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 11:46:10 AM,N/A
+OP300-Deviations,Listing of Deviations,List Deviations,Optional Deviation Number,N/A,N/A,1052074,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 11:46:10 AM,N/A
+OP300-VerifCal,Torque Drivers Calibration Verification,Torq Drvr Cal Verif ,N/A,N/A,N/A,N/A,N/A,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 11:47:22 AM,N/A
+OP300 Tasks,OP300 Tasks,Component Prep,Component Preparation,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 12:00:02 PM,N/A
+OP300 Tasks,OP300 Tasks,Chassis Int,Chassis Integration,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 12:04:06 PM,N/A
+OP300 Tasks,OP300 Tasks,Cable Int,Install Cables to Chassis,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 01:14:34 PM,N/A
+OP300 Tasks,OP300 Tasks,Imaging Module Assy,1.Install Camera Modules,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 01:28:41 PM,N/A
+OP300 Tasks,OP300 Tasks,Imaging Module Assy,2.Install Z Stage Module,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 01:28:41 PM,N/A
+OP300 Tasks,OP300 Tasks,Imaging Module Assy,3.Install Compensator Module,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 01:28:41 PM,N/A
+OP300 Tasks,OP300 Tasks,Imaging Module Int,1.Install IM to Chassis,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 01:45:57 PM,N/A
+OP300 Tasks,OP300 Tasks,Imaging Module Int,2.Install LED Module,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 01:45:57 PM,N/A
+OP300 Tasks,OP300 Tasks,E-Box Assy,1.Install E-box to Chassis,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 02:26:16 PM,N/A
+OP300 Tasks,OP300 Tasks,E-Box Assy,2.Install Z Stage PCA,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,10-AUG-2021 02:26:16 PM,N/A
+OP300 Tasks,OP300 Tasks,N/A,Time Tracking,N/A,N/A,Queue,Pass,Anthony Choy,Operator,gdnCollectDataOperation,10-AUG-2021 02:32:52 PM,N/A
+OP300 Tasks,OP300 Tasks,Chiller Assy,1.Assemble Rotary Valve,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 03:33:03 PM,N/A
+OP300 Tasks,OP300 Tasks,Chiller Assy,2.Assemble Chiller,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 03:33:03 PM,N/A
+OP300 Tasks,OP300 Tasks,E-Box Int,1.Install Cables to E-box,N/A,N/A,Pass,Pass,Justin Ho,Operator,ExecuteTask,10-AUG-2021 04:07:34 PM,N/A
+OP300 Tasks,OP300 Tasks,E-Box Int,2.Install Syringe Pump,N/A,N/A,Pass,Pass,Justin Ho,Operator,ExecuteTask,10-AUG-2021 04:07:34 PM,N/A
+OP300 Tasks,OP300 Tasks,Install Chiller and Sipper,1.Install Chiller Assy,N/A,N/A,Pass,Pass,Justin Ho,Operator,ExecuteTask,10-AUG-2021 04:07:43 PM,N/A
+OP300 Tasks,OP300 Tasks,Install Chiller and Sipper,2.Install Sipper Console,N/A,N/A,Pass,Pass,Justin Ho,Operator,ExecuteTask,10-AUG-2021 04:07:43 PM,N/A
+OP300 Tasks,OP300 Tasks,Sipper Console Int,Sipper Console Int,N/A,N/A,Pass,Pass,Justin Ho,Operator,ExecuteTask,10-AUG-2021 04:07:51 PM,N/A
+OP300 Tasks,OP300 Tasks,TEC Int,TEC Integration,N/A,N/A,Pass,Pass,Justin Ho,Operator,ExecuteTask,10-AUG-2021 04:08:04 PM,N/A
+OP300 Tasks,OP300 Tasks,Fluidic Assy Int,Fluidic Assy Int,N/A,N/A,Pass,Pass,Michael Mejia,Operator,ExecuteTask,10-AUG-2021 04:08:16 PM,N/A
+OP300 Tasks,OP300 Tasks,FCH Int,FCH Integration,N/A,N/A,Pass,Pass,Justin Ho,Operator,ExecuteTask,10-AUG-2021 04:08:19 PM,N/A
+OP400-Ref,References,N/A,Time Tracking,N/A,N/A,Queue,Pass,Michael Mejia,Operator,gdnCollectDataOperation,10-AUG-2021 04:10:13 PM,N/A
+OP400-Ref,References,N/A,Cell Number,N/A,N/A,Cell 1,Pass,Michael Mejia,Operator,gdnCollectDataOperation,10-AUG-2021 04:11:43 PM,N/A
+OP400-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ccfMoveStd,11-AUG-2021 07:05:12 AM,N/A
+OP400-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:05:12 AM,N/A
+OP400-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ccfMoveStd,11-AUG-2021 07:05:47 AM,N/A
+OP400-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:05:47 AM,N/A
+OP400-Deviations,Listing of Deviations,List Deviations,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:06:03 AM,N/A
+OP400-HiPotTstPrep,Hi-Pot and Offset Test,Hi-Pot n Offset Tst,1.Hi-Pot Tester ILM #,N/A,N/A,ILM-8650,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:07:00 AM,N/A
+OP400-HiPotTstPrep,Hi-Pot and Offset Test,Hi-Pot n Offset Tst,2.Ground Bond Measure,0,100,4(milliohm),Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:07:00 AM,N/A
+OP400-HiPotTstPrep,Hi-Pot and Offset Test,Hi-Pot n Offset Tst,3.AC HiPot Measure,1,8,2(mA),Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:07:00 AM,N/A
+OP400-PrepInst,Prepare Instrument,Prep Instrument,1.Prepare Instrument,N/A,N/A,Performed,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:32:40 AM,N/A
+OP400-PrepInst,Prepare Instrument,Prep Instrument,2.Verify Fan Operation,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 07:32:40 AM,N/A
+OP400-SysSetup,Setup System,Setup System,Setup System Software,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 08:08:46 AM,N/A
+OP400-SysSetup,Setup System,Cal Touch Screen,Calibrate Touch Screen,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 08:09:31 AM,N/A
+OP400-IntlyzHoming,Initialize and Homing,Intlyz n Homing,Initialize and Home,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 08:26:24 AM,N/A
+OP400-VerifVer,Verify Version,ID n Reg New Unit,Identify n Register,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 08:26:48 AM,N/A
+OP400-VerifVer,Verify Version,Verif Version,CAM Driver Version,N/A,N/A,1.0.5.0,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 08:28:51 AM,N/A
+OP400-VerifVer,Verify Version,Verif Version,FPGA Module Version,N/A,N/A,9.5.12,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 08:28:51 AM,N/A
+OP400-VerifVer,Verify Version,Verif Version,FTS Module Version,N/A,N/A,4.0.0.49,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 08:28:51 AM,N/A
+OP400-VerfRFID,Verify RFID,Verif RFID,RFID Fail Test,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:10:30 AM,N/A
+OP400-VerfRFID,Verify RFID,Verif RFID,RFID Pass Test,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:10:30 AM,N/A
+OP400-VerfRFID,Verify RFID,Verif RFID,Wash FC SN,N/A,N/A,J7HJ9,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:10:30 AM,N/A
+OP400-VerfMotor,Verify Motor,Verif Motor,Y Motor n Y Stage Function,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:11:10 AM,N/A
+OP400-VerfMotor,Verify Motor,Verif Motor,Y-Motor Encoder,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:11:10 AM,N/A
+OP400-VerfMotor,Verify Motor,Verif Motor,Z Motor Functionality,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:11:10 AM,N/A
+OP400-VerifOptics,Verify Optics,Verif Optics,Camera Functionality,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:12:17 AM,N/A
+OP400-VerifTemp,Verify Temperature,Verif Temperature,01.FC Fixture-ILM#,N/A,N/A,14015,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:27:59 AM,N/A
+OP400-VerifTemp,Verify Temperature,Verif Temperature,02.Fluke Meter-ILM#,N/A,N/A,4057,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:27:59 AM,N/A
+OP400-VerifTemp,Verify Temperature,Verif Temperature,03.Calibrate FCH TEC,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:27:59 AM,N/A
+OP400-PostCal16Temp,Record Post Calibration Temperature for 16C,Rec Post Cal Temp 16C,Post Cal Temp for 16C,14.0,18.0,15.6(°C),Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:29:34 AM,N/A
+OP400-PostCal96Temp,Record Post Calibration Temperature for 96C,Rec Post Cal Temp 96C,Post Cal Temp for 96C,94.0,98.0,96.1(°C),Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:47:28 AM,N/A
+OP400-PerfThrmSetTst,Perform Thermal Settling Test,Perf Thermal Settling Tst,Thermal Settling Test,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:55:01 AM,N/A
+OP400-VerifFluidics,Verify Fluidics,Verif Fluidics,Rotary Valve Responds,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 09:55:24 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,Chiller Door Sensor,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,FCH Clamp Sensor,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,LED Colors Respond,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,PR2 Bottle Sipper Sensor,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,PR2 WasteBottle Present Sensor,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,Reagent Tray Sensor,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,Sample Door Sensor,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,Speaker Chimes,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+OP400-VerifSensor,Verify Sensors,Verif Sensors,Waste Bottle Sensor,N/A,N/A,Pass,Pass,Connor Wong,Operator,ExecuteTask,11-AUG-2021 10:02:42 AM,N/A
+StrtOP500,Start OP500,N/A,Time Tracking,N/A,N/A,Queue,Pass,Connor Wong,Operator,gdnCollectDataOperation,11-AUG-2021 10:09:50 AM,N/A
+StrtOP500,Start OP500,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,11-AUG-2021 10:18:39 AM,N/A
+StrtOP500,Start OP500,Start OP500,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:18:39 AM,N/A
+OP500-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,11-AUG-2021 10:18:44 AM,N/A
+OP500-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:18:44 AM,N/A
+OP500-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,11-AUG-2021 10:18:51 AM,N/A
+OP500-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:18:51 AM,N/A
+OP500-Deviations,Listing of Deviations,List Deviations,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:19:05 AM,N/A
+OP500-StrtMiSeq,Start Up MiSeq,Verif Syringe Pump Conn,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:19:36 AM,N/A
+OP500-StrtMiSeq,Start Up MiSeq,Open MiSeq Fludc Tst SW,Initialize and Home,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:23:06 AM,N/A
+OP500-VerifTubStgMovm,Verify Tubing During Stage Movement,Verif Tubing,Lines can move freely,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:24:02 AM,N/A
+OP500-PrepWshFC,Prepare Wash Flow Cell,Prep Wash FC,Wash FC SN,N/A,N/A,J7HJ9,Pass,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 10:24:54 AM,N/A
+OP500-VerifRotVlvLnPos,Verify Rotary Valve and Line Position,Verif RotVlv n LnPosn,Water Location Correct,N/A,N/A,Fail,Fail,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 03:43:25 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,11-AUG-2021 03:46:23 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,NCR Number,N/A,N/A,300001069,Pass,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 03:46:23 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,Select Rework Path,N/A,N/A,RW-OP400,Pass,Daniel Brown,Operator,ExecuteTask,11-AUG-2021 03:46:23 PM,N/A
+OP400-ReWork,OP400 Re-workTask,Intlyz n Homing,Initialize and Home,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,12-AUG-2021 01:18:49 PM,N/A
+OP400-ReWork,OP400 Re-workTask,Verif Fluidics,Rotary Valve Responds,N/A,N/A,Pass,Pass,Anthony Choy,Operator,ExecuteTask,12-AUG-2021 01:20:17 PM,N/A
+OP400-ReWork,OP400 Re-workTask,Move Out,N/A,N/A,N/A,N/A,N/A,Anthony Choy,Operator,ExecuteTask,12-AUG-2021 01:20:51 PM,N/A
+OP400-ReWork,OP400 Re-workTask,N/A,N/A,N/A,N/A,N/A,N/A,Anthony Choy,Operator,MoveStd,12-AUG-2021 01:20:51 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,12-AUG-2021 02:13:49 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,Select Rework Path,N/A,N/A,RW-OP500,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:13:49 PM,N/A
+OP500-ReWork,OP500 Re-workTask,Open MiSeq Fludc Tst SW,Initialize and Home,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:18:06 PM,N/A
+OP500-ReWork,OP500 Re-workTask,Verif Tubing,Lines can move freely,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:19:10 PM,N/A
+OP500-ReWork,OP500 Re-workTask,Prep Wash FC,Wash FC SN,N/A,N/A,J7HJ9,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:19:40 PM,N/A
+OP500-ReWork,OP500 Re-workTask,Verif RotVlv n LnPosn,Water Location Correct,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:35:50 PM,N/A
+OP500-ReWork,OP500 Re-workTask,Move Out,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:36:02 PM,N/A
+OP500-ReWork,OP500 Re-workTask,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,MoveStd,12-AUG-2021 02:36:02 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,12-AUG-2021 02:36:12 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,Select Rework Path,N/A,N/A,Exit,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:36:12 PM,N/A
+Conf NC/DEV/RW-Exit,Confirm Exiting NC/DEV/RW Path,Conf NC/DEV/RWPath Exit,Go to NC Path,N/A,N/A,No,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:36:22 PM,N/A
+Conf NC/DEV/RW-Exit,Confirm Exiting NC/DEV/RW Path,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,12-AUG-2021 02:36:22 PM,N/A
+OP500-VerifFlwWstLn,Verify Flow and Waste Line,Verif Flow n Waste Ln,Liquid dispenses from Line,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:40:10 PM,N/A
+OP500-VerifFlwWstLn,Verify Flow and Waste Line,Verif Flow n Waste Ln,No stream of bubbles,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:40:10 PM,N/A
+OP500-CalFlwSens1000,Calibrate Flow Sensor @ 1000 μl ,Cal Flow Sens@1000,Flow rate at 1000,800,1200,1024(uL/min),Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:46:04 PM,N/A
+OP500-CalFlwSens1000,Calibrate Flow Sensor @ 1000 μl ,Cal Flow Sens@1000,R1 and R2 work properly,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:46:04 PM,N/A
+OP500-CalFlwSens1500,Calibrate Flow Sensor @ 1500 μl ,Cal Flow Sens@1500,Flow rate at 1500,1200,1800,1537(uL/min),Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:50:17 PM,N/A
+OP500-RunFTSVolConf,Run FTS Volume Confirmation,Run FTS Vol Conf,FTS Volume Confirmation,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 02:57:16 PM,N/A
+OP500-CompltFldTst,Complete Fluidics Test,Wrap-up,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:03:45 PM,N/A
+StrtOP550,Start OP550,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,12-AUG-2021 03:11:00 PM,N/A
+StrtOP550,Start OP550,Start OP550,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:11:00 PM,N/A
+OP550-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,12-AUG-2021 03:11:09 PM,N/A
+OP550-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:11:09 PM,N/A
+OP550-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ccfMoveStd,12-AUG-2021 03:11:16 PM,N/A
+OP550-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:11:16 PM,N/A
+OP550-Deviations,Listing of Deviations,List Deviations,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:11:23 PM,N/A
+OP550-PrepInst,Prepare Instrument,Prep Instrument,FPGA Version,N/A,N/A,9.5.12,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:13:52 PM,N/A
+OP550-PrepInst,Prepare Instrument,Prep Instrument,Module Version,N/A,N/A,4.0.0.25,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:13:52 PM,N/A
+OP550-PrepInst,Prepare Instrument,Prep Instrument,Wash FC SN,N/A,N/A,J7HJ9,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:13:52 PM,N/A
+OP550-VerifIntlzHm,Verify Initialization and Homing,Verif Initializ n Homing,Initialize and Home,N/A,N/A,Pass,Pass,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:18:41 PM,N/A
+OP550-VerfBurnRsult,Perform and Verify Burn-In Test,Perf Burn-In Tst,N/A,N/A,N/A,N/A,N/A,Daniel Brown,Operator,ExecuteTask,12-AUG-2021 03:19:42 PM,N/A
+OP550-VerfBurnRsult,Perform and Verify Burn-In Test,N/A,Time Tracking,N/A,N/A,Queue,Pass,Daniel Brown,Operator,gdnCollectDataOperation,12-AUG-2021 03:20:07 PM,N/A
+OP550-VerfBurnRsult,Perform and Verify Burn-In Test,Verif Burn-in Results,All Tests Complete,N/A,N/A,Pass,Pass,Yen Chung,Operator,ExecuteTask,13-AUG-2021 01:41:49 PM,N/A
+OP550-WrapUpMatrls,Wrap-up and Back-up,N/A,N/A,N/A,N/A,N/A,N/A,Yen Chung,Operator,ccfMoveStd,13-AUG-2021 01:42:38 PM,N/A
+OP550-WrapUpMatrls,Wrap-up and Back-up,WrapUp Matrl n BackUp Data,N/A,N/A,N/A,N/A,N/A,Yen Chung,Operator,ExecuteTask,13-AUG-2021 01:42:38 PM,N/A
+OP600-Ref,References,N/A,Time Tracking,N/A,N/A,Queue,Pass,Yen Chung,Operator,gdnCollectDataOperation,13-AUG-2021 01:44:18 PM,N/A
+OP600-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Jose Lopez,Operator,ccfMoveStd,14-AUG-2021 12:02:58 PM,N/A
+OP600-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:02:58 PM,N/A
+OP600-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Jose Lopez,Operator,ccfMoveStd,14-AUG-2021 12:03:38 PM,N/A
+OP600-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:03:38 PM,N/A
+OP600-Deviations,Listing of Deviations,List Deviations,Optional Deviation Number,N/A,N/A,1046305,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:04:09 PM,N/A
+OP600-RecVerNum,Record Version Number,Rec Ver Numbers,BFC SN,N/A,N/A,C1DU2,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:05:17 PM,N/A
+OP600-RecVerNum,Record Version Number,Rec Ver Numbers,FPGA Version,N/A,N/A,9.5.12,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:05:17 PM,N/A
+OP600-RecVerNum,Record Version Number,Rec Ver Numbers,OATS Version,N/A,N/A,4.0.0.61,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:05:17 PM,N/A
+OP600-RecVerNum,Record Version Number,Rec Ver Numbers,OTT SN,N/A,N/A,C0059,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:05:17 PM,N/A
+OP600-RecVerNum,Record Version Number,Rec Ver Numbers,Script Version,N/A,N/A,2.44,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:05:17 PM,N/A
+OP600-RecCalInfo,Record Calibration Information,Rec Cal Info,LED Power Meter-ILM#,N/A,N/A,4390,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:09:15 PM,N/A
+OP600-RecCalInfo,Record Calibration Information,Rec Cal Info,LED Power Sensor-ILM#,N/A,N/A,4393,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:09:15 PM,N/A
+OP600-PrepIMComp,Prepare Imaging Module Components,Prep IM Components,Coarse Focus,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:12:38 PM,N/A
+OP600-PrepIMComp,Prepare Imaging Module Components,Prep IM Components,Insp FCH Clamp,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:12:38 PM,N/A
+OP600-PrepIMComp,Prepare Imaging Module Components,Prep IM Components,Insp IM,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:12:38 PM,N/A
+OP600-PrepIMComp,Prepare Imaging Module Components,Prep IM Components,Insp Ship,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:12:38 PM,N/A
+OP600-PrepIMComp,Prepare Imaging Module Components,Prep IM Components,Prep FC,N/A,N/A,Performed,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:12:38 PM,N/A
+OP600-PrepIMComp,Prepare Imaging Module Components,Prep IM Components,Verif L1 and L2,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:12:38 PM,N/A
+OP600-MesurLEDPwr,Measure LED Power,Mesur LED Pwr,Green LED Power,55.1,N/A,134.0(ṁW),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:15:44 PM,N/A
+OP600-MesurLEDPwr,Measure LED Power,Mesur LED Pwr,Red LED Power,145.1,N/A,195.3(ṁW),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:15:44 PM,N/A
+OP600-CalVerifLEDMod,Calibrate and Verify LED Module,Cal LED Pwr,N/A,N/A,N/A,N/A,N/A,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:24:02 PM,N/A
+OP600-CalVerifLEDMod,Calibrate and Verify LED Module,Verif LED Cal,Green LED Meter Value,N/A,N/A,134.2(ṁW),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:29:04 PM,N/A
+OP600-CalVerifLEDMod,Calibrate and Verify LED Module,Verif LED Cal,Green LED OATS Value,N/A,N/A,134.3(ṁW),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:29:04 PM,N/A
+OP600-CalVerifLEDMod,Calibrate and Verify LED Module,Verif LED Cal,Green LED Power within +/-5mW,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:29:04 PM,N/A
+OP600-CalVerifLEDMod,Calibrate and Verify LED Module,Verif LED Cal,Red LED Meter Value,N/A,N/A,195.1(ṁW),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:29:04 PM,N/A
+OP600-CalVerifLEDMod,Calibrate and Verify LED Module,Verif LED Cal,Red LED OATS Value,N/A,N/A,193.5(ṁW),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:29:04 PM,N/A
+OP600-CalVerifLEDMod,Calibrate and Verify LED Module,Verif LED Cal,Red LED Power within +/-5mW,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:29:04 PM,N/A
+OP600-InspZWedg,Inspect Z-Wedge,Insp Z-Wedge,FC SN,N/A,N/A,C1DU2,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:34:04 PM,N/A
+OP600-InspZWedg,Inspect Z-Wedge,Insp Z-Wedge,Inspect Z Wedge,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 12:34:04 PM,N/A
+OP600-X/Y Calib and ilmn FP,X/Y Calibration and Illumination footprint,X/Y Calib and Ilmn footptint,Cam2 illmn FTP Result,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 01:21:44 PM,N/A
+OP600-X/Y Calib and ilmn FP,X/Y Calibration and Illumination footprint,X/Y Calib and Ilmn footptint,Left Edge,N/A,629,609(Pixel),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 01:21:44 PM,N/A
+OP600-X/Y Calib and ilmn FP,X/Y Calibration and Illumination footprint,X/Y Calib and Ilmn footptint,Right Edge,3671,N/A,3687(Pixel),Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 01:21:44 PM,N/A
+OP600-PrepFCFlrInsp,Prepare FlowCell Flare Inspection,Prep FC Flr Insp,FC SN,N/A,N/A,CVHMM,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 01:31:37 PM,N/A
+OP600-PrepFCFlrInsp,Prepare FlowCell Flare Inspection,Prep FC Flr Insp,No Flare Present,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 01:31:37 PM,N/A
+OP600-PrepFCFlrInsp,Prepare FlowCell Flare Inspection,Prep FC Flr Insp,No Physical Damage to FC,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,14-AUG-2021 01:31:37 PM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,N/A,Time Tracking,N/A,N/A,Queue,Pass,Jose Lopez,Operator,gdnCollectDataOperation,14-AUG-2021 02:05:39 PM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,N/A,Time Tracking,N/A,N/A,Prime,Pass,Jose Lopez,Operator,gdnCollectDataOperation,16-AUG-2021 09:20:38 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,N/A,Time Tracking,N/A,N/A,Queue,Pass,Jose Lopez,Operator,gdnCollectDataOperation,16-AUG-2021 04:30:30 PM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,Actualedgeofslide (8),N/A,N/A,56.96385(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,FCH X Off Cal Result,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,Hard Stop Position (6),N/A,N/A,73.89485(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,LaneCentering(Tile11-LeftEdge),1928,2354,2138(Pixel),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,LaneCentering(Tile2-LeftEdge),1928,2354,2153(Pixel),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,LaneCentering(Tile6-LeftEdge),N/A,N/A,2144(Pixel),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,LaneRotation(Tile11-Tile2),-100,100,-15(Pixel),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,Position of Tiles-Ideal 4(b),-0.10,0.10,0.00(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,Result,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,SoftLimitPositiveMm (7),N/A,N/A,76.13485(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-ChkCam2Cal,Check Camera 2 Calibration,Chk Cam2 Cal,Ystagehometoedgeofslide (5),N/A,N/A,53.56385(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:35:04 AM,N/A
+OP600-AdjCam1TileTile,Adjust Camera 1 Tile Tilt,Adj Cam1 Tile Tilt,Loctite Expiration Date,N/A,N/A,31-AUG-2021,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 11:58:47 AM,N/A
+OP600-CalBottmLn,Calibrate Bottom Lane,Cal Bottom Ln,(|Ztop – Zbottom|),N/A,N/A,0.03901(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 12:41:51 PM,N/A
+OP600-CalBottmLn,Calibrate Bottom Lane,Cal Bottom Ln,Bottom Lane Cal Result,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 12:41:51 PM,N/A
+OP600-CalBottmLn,Calibrate Bottom Lane,Cal Bottom Ln,Z-Bottom Best Focus,N/A,N/A,-0.11524(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 12:41:51 PM,N/A
+OP600-CalBottmLn,Calibrate Bottom Lane,Cal Bottom Ln,Z-top Best Focus,N/A,N/A,-0.15425(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 12:41:51 PM,N/A
+OP600-TorqChknSkinInstall,Torque Check & Skin Installation,Torque Check and Skin Install,Electronic Signature,N/A,N/A,Signer,Complete,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 12:44:51 PM,N/A
+OP600-TorqChknSkinInstall,Torque Check & Skin Installation,Torque Check and Skin Install,Electronic Signature,N/A,N/A,Signer,Complete,Megan Tan,Operator,ExecuteTask,18-AUG-2021 12:44:51 PM,N/A
+OP600-TorqChknSkinInstall,Torque Check & Skin Installation,Torque Check and Skin Install,N/A,N/A,N/A,N/A,N/A,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 12:44:51 PM,N/A
+OP600-UpdtMiSeqConfig,Update MiSeq Configuration,Updt MiSeq Config,Foc Offset - Bottom-Top,36,N/A,39(µm),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:14:41 PM,N/A
+OP600-UpdtMiSeqConfig,Update MiSeq Configuration,Updt MiSeq Config,Focal-Plane Z Pos - Bottom,N/A,N/A,-0.12200(MM),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:14:41 PM,N/A
+OP600-UpdtMiSeqConfig,Update MiSeq Configuration,Updt MiSeq Config,Focal-Plane Z Pos - Top,N/A,N/A,-0.16104(MM),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:14:41 PM,N/A
+OP600-UpdtMiSeqConfig,Update MiSeq Configuration,Updt MiSeq Config,Tilted M3 Mirror,-0.009,-0.006,-0.007(MM),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:14:41 PM,N/A
+OP600-UpdtMiSeqConfig,Update MiSeq Configuration,Updt MiSeq Config,ZOffsetToFocusLED,N/A,N/A,-0.00082(MM),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:14:41 PM,N/A
+OP600-RecPosnZwdge,Record Tile Position and Z-Wedge,Rec BoltPAC Tile Posn,BoltPAC Tile,N/A,N/A,70.96830(MM),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:20:45 PM,N/A
+OP600-RecPosnZwdge,Record Tile Position and Z-Wedge,Verif Z-Wedge,∆Z across Tile 1 to 12,0.00000,0.02200,0.00593(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:32:44 PM,N/A
+OP600-RecPosnZwdge,Record Tile Position and Z-Wedge,Verif Z-Wedge,∆Z average per Tile,0.00000,0.00200,0.00054(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:32:44 PM,N/A
+OP600-RecPosnZwdge,Record Tile Position and Z-Wedge,Verif Z-Wedge,Tile 1 Best Focus Z-Position,N/A,N/A,-0.15794(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:32:44 PM,N/A
+OP600-RecPosnZwdge,Record Tile Position and Z-Wedge,Verif Z-Wedge,Tile 12 Best Focus Z-Position,N/A,N/A,-0.15201(  mm ),Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:32:44 PM,N/A
+OP600-RecPosnZwdge,Record Tile Position and Z-Wedge,Verif Z-Wedge,Z-Wedge Insp Result,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 02:32:44 PM,N/A
+OP600-CollectUpldData,Collect and Upload Data,N/A,N/A,N/A,N/A,N/A,N/A,Jose Lopez,Operator,gdnContainerAttachDoc,18-AUG-2021 03:15:39 PM,N/A
+OP600-CollectUpldData,Collect and Upload Data,Collect n Upload Data,Attach BoltPac,N/A,N/A,Performed,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 03:15:53 PM,N/A
+OP600-CollectUpldData,Collect and Upload Data,Collect n Upload Data,BoltPAC Passes,N/A,N/A,Pass,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 03:15:53 PM,N/A
+OP600-CollectUpldData,Collect and Upload Data,Collect n Upload Data,Upload Data,N/A,N/A,Performed,Pass,Jose Lopez,Operator,ExecuteTask,18-AUG-2021 03:15:53 PM,N/A
+StrtOP750,Start OP750,N/A,Time Tracking,N/A,N/A,Queue,Pass,Jose Lopez,Operator,gdnCollectDataOperation,18-AUG-2021 03:16:50 PM,N/A
+StrtOP750,Start OP750,N/A,Time Tracking,N/A,N/A,Prime,Pass,Toni Perry,Operator,gdnCollectDataOperation,18-AUG-2021 04:56:16 PM,N/A
+StrtOP750,Start OP750,N/A,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ccfMoveStd,18-AUG-2021 04:56:33 PM,N/A
+StrtOP750,Start OP750,Start OP750,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ExecuteTask,18-AUG-2021 04:56:33 PM,N/A
+OP750-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ccfMoveStd,18-AUG-2021 04:56:45 PM,N/A
+OP750-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ExecuteTask,18-AUG-2021 04:56:45 PM,N/A
+OP750-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ccfMoveStd,18-AUG-2021 04:56:53 PM,N/A
+OP750-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Toni Perry,Operator,ExecuteTask,18-AUG-2021 04:56:53 PM,N/A
+OP750-Deviations,Listing of Deviations,List Deviations,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ExecuteTask,18-AUG-2021 04:57:00 PM,N/A
+OP750-IncomDevcPrep,Prepare Incoming Device,Prep Incoming Device,Prep Device,N/A,N/A,Pass,Pass,Toni Perry,Operator,ExecuteTask,18-AUG-2021 04:58:54 PM,N/A
+OP750-MockRunSetup,Set-up & Start Mock Run,Setup & Start Mock,BFC SN,N/A,N/A,C1B2A,Pass,Toni Perry,Operator,ExecuteTask,18-AUG-2021 05:00:13 PM,N/A
+OP750-MockRunSetup,Set-up & Start Mock Run,Setup & Start Mock,Start Mock,N/A,N/A,Pass,Pass,Toni Perry,Operator,ExecuteTask,18-AUG-2021 05:00:13 PM,N/A
+OP750-MockRunWrpnAnlyz,Analyze and Wrap up Mock Run,N/A,Time Tracking,N/A,N/A,Queue,Pass,Toni Perry,Operator,gdnCollectDataOperation,18-AUG-2021 05:01:32 PM,N/A
+OP750-MockRunWrpnAnlyz,Analyze and Wrap up Mock Run,Analyze & Wrap up,Mock Run,N/A,N/A,Pass,Pass,Hailey Noe,Operator,ExecuteTask,19-AUG-2021 07:14:59 AM,N/A
+OP750-PreFIT,Pre FIT Activities,Pre FIT Activities,Pre FIT Activities,N/A,N/A,Pass,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:08:59 AM,N/A
+OP750-PreFIT,Pre FIT Activities,Pre FIT Activities,Wash FC SN,N/A,N/A,JL2F2,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:08:59 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,00. Pipet Item Number,N/A,N/A,ILM-4217,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,01.Material# Flow Cell,N/A,N/A,15028382,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,02.ExpireDate-Flow Cell,N/A,N/A,21-JAN-2022,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,03.Lot# Flow Cell,N/A,N/A,20511281,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,04.Material# PR2,N/A,N/A,15041807,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,05.ExpireDate-PR2,N/A,N/A,09-JUN-2022,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,06.Lot# PR2,N/A,N/A,20552568,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,07.Material# Reagent Kit,N/A,N/A,15043895,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,08.ExpireDate-Reagent Kit,N/A,N/A,15-JUN-2022,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,09.Lot# Reagent Kit,N/A,N/A,20567013,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,10.Material# PhiX,N/A,N/A,20001310,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,11.ExpireDate-Phi X,N/A,N/A,31-AUG-2021,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,12.Lot# PhiX,N/A,N/A,20566159,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITSetupnStart,FIT Setup and Start,FIT Setup and Start,Sequencing Run Started,N/A,N/A,Pass,Pass,Toni Perry,Operator,ExecuteTask,19-AUG-2021 11:12:01 AM,N/A
+OP750-FITComplete,FIT Complete,N/A,Time Tracking,N/A,N/A,Queue,Pass,Toni Perry,Operator,gdnCollectDataOperation,19-AUG-2021 11:12:51 AM,N/A
+OP750-FITComplete,FIT Complete,FIT Complete,FIT Run,N/A,N/A,Fail,Fail,Jamie Ng,Operator,ExecuteTask,20-AUG-2021 07:02:58 AM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,N/A,Time Tracking,N/A,N/A,Prime,Pass,Toni Perry,Operator,gdnCollectDataOperation,20-AUG-2021 04:54:32 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,N/A,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ccfMoveStd,20-AUG-2021 04:55:21 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,NCR Number,N/A,N/A,300001280,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:55:21 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,Select Rework Path,N/A,N/A,RW-OP750,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:55:21 PM,N/A
+OP750-ReWork,OP750 Re-workTask,Pre FIT Activities,Pre-FIT Activities ,N/A,N/A,Pass,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:56:07 PM,N/A
+OP750-ReWork,OP750 Re-workTask,Pre FIT Activities,Wash FC SN,N/A,N/A,JL2F2,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:56:07 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,00. Pipet Item Number,N/A,N/A,ILM-4217,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,01.Material# Flow Cell,N/A,N/A,15028382,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,02.ExpireDate-Flow Cell,N/A,N/A,21-JAN-2022,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,03.Lot# Flow Cell,N/A,N/A,20511281,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,04.Material# PR2,N/A,N/A,15041807,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,05.ExpireDate-PR2,N/A,N/A,14-MAY-2022,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,06.Lot# PR2,N/A,N/A,20546401,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,07.Material# Reagent Kit,N/A,N/A,15043895,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,08.ExpireDate-Reagent Kit,N/A,N/A,08-MAY-2022,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,09.Lot# Reagent Kit,N/A,N/A,20557166,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,10.Material# PhiX,N/A,N/A,20001310,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,11.ExpireDate-Phi X,N/A,N/A,31-AUG-2021,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,12.Lot# PhiX,N/A,N/A,20566159,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Setup & Start,Sequencing Run Started,N/A,N/A,Pass,Pass,Toni Perry,Operator,ExecuteTask,20-AUG-2021 04:58:52 PM,N/A
+OP750-ReWork,OP750 Re-workTask,N/A,Time Tracking,N/A,N/A,Queue,Pass,Toni Perry,Operator,gdnCollectDataOperation,20-AUG-2021 04:59:36 PM,N/A
+OP750-ReWork,OP750 Re-workTask,N/A,N/A,N/A,N/A,N/A,N/A,Jamie Ng,Operator,gdnContainerAttachDoc,23-AUG-2021 09:00:52 AM,N/A
+OP750-ReWork,OP750 Re-workTask,FIT Complete,FIT Run,N/A,N/A,Pass,Pass,Jamie Ng,Operator,ExecuteTask,23-AUG-2021 09:01:09 AM,N/A
+OP750-ReWork,OP750 Re-workTask,Move Out,N/A,N/A,N/A,N/A,N/A,Jamie Ng,Operator,ExecuteTask,23-AUG-2021 09:02:03 AM,N/A
+OP750-ReWork,OP750 Re-workTask,N/A,N/A,N/A,N/A,N/A,N/A,Jamie Ng,Operator,MoveStd,23-AUG-2021 09:02:03 AM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,N/A,N/A,N/A,N/A,N/A,N/A,Jamie Ng,Operator,ccfMoveStd,23-AUG-2021 09:03:49 AM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,Select Rework Path,N/A,N/A,Exit,Pass,Jamie Ng,Operator,ExecuteTask,23-AUG-2021 09:03:49 AM,N/A
+Conf NC/DEV/RW-Exit,Confirm Exiting NC/DEV/RW Path,Conf NC/DEV/RWPath Exit,Go to NC Path,N/A,N/A,No,Pass,Jamie Ng,Operator,ExecuteTask,23-AUG-2021 09:04:03 AM,N/A
+Conf NC/DEV/RW-Exit,Confirm Exiting NC/DEV/RW Path,N/A,N/A,N/A,N/A,N/A,N/A,Jamie Ng,Operator,ccfMoveStd,23-AUG-2021 09:04:03 AM,N/A
+OP750-WrapUp,Instrument Wrap Up,Instrument Wrap Up,Instrument Wrap Up,N/A,N/A,Pass,Pass,Jamie Ng,Operator,ExecuteTask,23-AUG-2021 01:16:07 PM,N/A
+OP750-DHR Check,Check DHR,Check DHR,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ExecuteTask,24-AUG-2021 10:24:07 AM,N/A
+OP750-DHR Check,Check DHR,N/A,N/A,N/A,N/A,N/A,N/A,Toni Perry,Operator,ccfMoveStd,24-AUG-2021 10:24:07 AM,N/A
+OP800-Ref,References,N/A,Time Tracking,N/A,N/A,Queue,Pass,Toni Perry,Operator,gdnCollectDataOperation,24-AUG-2021 10:24:37 AM,N/A
+OP800-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Thomas Banh,Operator,MoveNonStd,24-AUG-2021 01:02:09 PM,Moving to record DEVN that was inadvertently missed but performed 11 AUG 2021; DEVN was applied prior to release. 
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,Deviation Number,N/A,N/A,1054318,Pass,Connor Wong,Operator,ExecuteTask,24-AUG-2021 01:02:57 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,N/A,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ccfMoveStd,24-AUG-2021 01:02:57 PM,N/A
+NC/DEV/RW,Record NC/Dev and/or Rework,Record NC/Dev and/or Rework,Select Rework Path,N/A,N/A,Exit,Pass,Connor Wong,Operator,ExecuteTask,24-AUG-2021 01:02:57 PM,N/A
+Conf NC/DEV/RW-Exit,Confirm Exiting NC/DEV/RW Path,Conf NC/DEV/RWPath Exit,Go to NC Path,N/A,N/A,No,Pass,Connor Wong,Operator,ExecuteTask,24-AUG-2021 01:04:02 PM,N/A
+Conf NC/DEV/RW-Exit,Confirm Exiting NC/DEV/RW Path,N/A,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ccfMoveStd,24-AUG-2021 01:04:02 PM,N/A
+OP400-IntlyzHoming,Initialize and Homing,N/A,N/A,N/A,N/A,N/A,N/A,Thomas Banh,Operator,MoveNonStd,24-AUG-2021 01:05:33 PM,return to std process
+OP800-Ref,References,N/A,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ccfMoveStd,24-AUG-2021 01:05:57 PM,N/A
+OP800-Ref,References,References,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ExecuteTask,24-AUG-2021 01:05:57 PM,N/A
+OP800-Safety,Safety and General Precautions,N/A,N/A,N/A,N/A,N/A,N/A,Connor Wong,Operator,ccfMoveStd,24-AUG-2021 01:06:07 PM,N/A
+OP800-Safety,Safety and General Precautions,Safety,Safety,N/A,N/A,Performed,Pass,Connor Wong,Operator,ExecuteTask,24-AUG-2021 01:06:07 PM,N/A
+OP800-Deviations,Listing of Deviations,List Deviations,Optional Deviation Number,N/A,N/A,1052822,Pass,Connor Wong,Operator,ExecuteTask,24-AUG-2021 01:06:50 PM,N/A
+OP800-Deviations,Listing of Deviations,List Deviations,Optional Deviation Number,N/A,N/A,1054318,Pass,Connor Wong,Operator,ExecuteTask,24-AUG-2021 01:06:53 PM,N/A
+OP800-HiPotOffsetTst,Hi-Pot and Offset Test,N/A,Time Tracking,N/A,N/A,Queue,Pass,Connor Wong,Operator,gdnCollectDataOperation,24-AUG-2021 02:28:18 PM,N/A
+
