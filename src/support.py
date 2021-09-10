@@ -40,14 +40,14 @@ pathName = dirname(dirname(abspath(__file__)))
 def open_Fiori_NC(NCList):
     #Declare variables
     TabCount = 1
+
+    # Get appropriate driver for current Google Chrome Version
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     
     #Check if NCList has any contents
     if not NCList:
         print("No NC's!")
         return None
-    
-    # Get appropriate driver for current Google Chrome Version
-    driver = webdriver.Chrome(ChromeDriverManager().install())
 
     #Check the status of each NC
     for NCnum in NCList: 
@@ -104,16 +104,15 @@ def get_nc_status(NCList):
     #Declare variables
     NCDic = {}
     TabCount = 1
+
+    #Setup ChromeOptions and get appropriate chrome driver
+    chromeOptions = webdriver.ChromeOptions()
+    chromeOptions.add_experimental_option('excludeSwitches', ['enable-logging'])
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chromeOptions)
     
     #Check if NCList has any contents
     if not NCList:
         return NCDic
-    
-    #Setup Chromedriver
-    chromedriver = r"\\ushw-file\Users\transfer\edhr_checker\eDHR\eDHR\src\chromedriver_win32\chromedriver.exe" 
-    chromeOptions = webdriver.ChromeOptions()
-    chromeOptions.add_experimental_option('excludeSwitches', ['enable-logging'])
-    driver = webdriver.Chrome(executable_path=chromedriver, options=chromeOptions)
     
     #Check the status of each NC
     for NCnum in NCList: 
@@ -209,7 +208,10 @@ def get_ncr_numbers_old(SN, username, password):
         # Open browser and navigate to ETQ Reliance
         chrome_options = Options()
         chrome_options.add_argument('--log-level=3')
-        driver = webdriver.Chrome(options=chrome_options)
+
+        # Get appropriate driver for current Google Chrome Version
+        driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+
         url = "https://ussd-prd-etqr02.illumina.com/relianceprod/reliance?"
         "ETQ$CMD=CMD_OPEN_HOMEPAGE&ETQ$SCREEN_WIDTH=1280"
         driver.get(url)
@@ -319,8 +321,12 @@ def downloadDHR(SN):
             time.sleep(1)
             return
 
-    # Get appropriate driver for current Google Chrome Version
-    driver = webdriver.Chrome(ChromeDriverManager().install())
+    # Configure Chrome profile to download to this script's directory
+    chrome_options = webdriver.ChromeOptions()
+    prefs = {"download.default_directory" : eDHR_FilesPath}
+    chrome_options.add_experimental_option("prefs",prefs)
+    chrome_options.add_argument('--log-level=3')
+    driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
 
     # Open Chrome browser to eDHR website
     url = "http://ussd-illuminareporting.illumina.com/Reports/Pages/Report.aspx?ItemPath=%2fCamstar+Reports%2fProduction%2feDHR+-+Instrument+-+Detail"
