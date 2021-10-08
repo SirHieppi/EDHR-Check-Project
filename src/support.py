@@ -26,6 +26,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, WebDriverException
+from webdriver_manager.chrome import ChromeDriverManager
 
 #Daniel: I imported these libraries for the "get_nc_status" function
 from selenium.webdriver.common.by import By

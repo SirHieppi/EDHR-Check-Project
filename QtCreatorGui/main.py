@@ -14,6 +14,7 @@ class MyApp(QWidget):
         self.load_ui()
 
         self.window.buttonVerify.clicked.connect(self.verify)
+        self.window.buttonLoadData.clicked.connect(self.loadData)
 
     def load_ui(self):
         loader = QUiLoader()
@@ -24,14 +25,18 @@ class MyApp(QWidget):
         ui_file.close()
 
     def verify(self):
-        print("verifying...")
+        print("Verifying...")
 
         serial = self.window.lineEditSerial.text()
         proNum = self.window.lineEditPro.text()
         chassis = self.window.lineEditChassis.text()
 
-        print(serial,proNum,chassis)
+        print(serial, proNum, chassis)
 
+    def loadData(self):
+        serial = self.window.lineEditSerialStart.text()
+
+        print("Loading data for {}".format(serial))
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

@@ -35,7 +35,7 @@
     <attribute name="title">
      <string>Start</string>
     </attribute>
-    <widget class="QPushButton" name="loadDataButton">
+    <widget class="QPushButton" name="buttonLoadData">
      <property name="geometry">
       <rect>
        <x>350</x>
